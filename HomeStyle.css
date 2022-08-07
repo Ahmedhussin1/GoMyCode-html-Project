@@ -1,0 +1,122 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin-top: 80px;
+    background-color: black;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+}
+header h2{
+    padding-left: 10px;
+}
+/* --------- */
+.navLinks a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}
+.navLinks a:hover{
+    font-weight: 600;
+}
+.navLinks li{
+    list-style-type:none;
+    float: left;
+    padding-left: 40px;
+}
+/* ------------ */
+.ImgInfo span{
+    color:cornflowerblue;
+}
+.ImgInfo h1,h2,h3{
+    color: white;
+    padding-left: 20px;
+}
+/* ------------- */
+.vid{
+    background-color: #FFCC00;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vid h2{
+    padding-bottom:400px ;
+    text-align: center;
+    justify-content: center;
+}
+.vid iframe{
+    border-radius: 10px;
+}
+/* ------------- */
+.social{
+    width: fit-content;
+    text-align: center;
+    float: right;
+    padding-right: 200px;
+}
+.social li{
+    padding: 10px;
+}
+.social a{
+    text-decoration: none;
+    color: white;
+}
+.social a:hover{
+    color: #FFCC00;
+}
+/* ------------ */
+.contact{
+    width: fit-content;
+}
+.contact h3{
+    text-align: center;
+}
+.contact form{
+    margin-bottom:50px;
+    margin-left: 50px;
+    color: white;
+}
+.contact input{
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.contact button{
+    margin-left: 50px;
+    padding:5px 15px 5px 15px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 5px;
+}
+.contact button:hover{
+
+}
+/* ----About page---- */
+.paragraph{
+    color: white;
+}
+/* ------work page----- */
+.work a{
+    text-decoration: none;
+    color: cornflowerblue;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+.workLink a{
+    text-decoration: none;
+    color: cornflowerblue;
+    font-weight: 500;
+    font-size: 20px;
+}
