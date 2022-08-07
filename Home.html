@@ -4,73 +4,64 @@
         <title>
             Portfolio
         </title>
+        <link rel="stylesheet" href="HomeStyle.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,700;1,100&display=swap" rel="stylesheet">
     </head>
     <body>
-        <nav style="float:right;">
-            <a style="margin-right: 20px;" href="/Web/Html Project/Home.html">Home</a>
-            <a style="margin-right: 20px;" href="/Web/Html Project/About.html">About</a>
-            <a style="margin-right: 20px;" href="/Web/Html Project/Work.html">Work</a>
-            <a style="margin-right: 20px;" href="/Web/Html Project/resume.html">resume</a>
-            <a style="margin-right: 20px;" href="/Web/Html Project/Contract.html">Contact</a>
-        </nav>
+        <header>
+            <h2>Portfolio</h2>
+            <nav class="navLinks">
+                    <li><a href="/Web/Html Project/Home.html">Home</a></li>
+                    <li><a href="/Web/Html Project/About.html">About</a></li>
+                    <li><a href="/Web/Html Project/Work.html">Work</a></li>
+                    <li><a href="/Web/Html Project/resume.html">Resume</a></li>
+                    <li><a href="/Web/Html Project/Contract.html">Contact</a></li>
+            </nav>
+        </header>
+
         <br>
-        <div>
-            <img width="300px" height="300px" src="/Web/Html Project/Foto-CV.png">
-            <ul>
-                <li>Name: Ahmed Mohamed Hussin </li>
-            </ul>
-            <ul>
-                <li>Age: 22 </li>
-            </ul>
-            <ul>
-                <li>Email: ahmed208087@gmail.com </li>
-            </ul>
-            <ul>
-                <li>Phone: 01555434181 </li>
-            </ul>
-        </div>
-        <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/UMOe0glzPmU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <footer>
-            
-            <hr>
 
-            <div>
-                <div style="float:right;padding-right: 100px;">
+        <div class="ImgInfo">
+            <img src="https://luxinbound.com/web-design/" alt="">
+            <h3>hi, I am <span>Ahmed</span></h3>
+            <h1>I'am a Front-<span>End</span> developer</h1>
+        </div>
 
-                    <h3 style="margin-left: 150px;">Social Media</h3>
-                    
-                    <section >
-                        <a style="padding-right:50px;" href="https://www.facebook.com/ahmed.hussin.79656921">Facebook</a>
-                        <a style="padding-right:50px;" href="https://www.instagram.com/ahmed_hussssin/">Instagram</a>
-                        <a style="padding-right:50px;" href="https://github.com/Ahmedhussin1">GitHub</a>
-                        <a style="padding-right:50px;" href="https://twitter.com/ahmedhussin1253">twitter</a>
-                    </section>
-                    
+        <div class="vid ">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/8MgpE2DTTKA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+            <footer>
+
+                <div class="social">
+                    <h3>Social Media</h3>
+                    <ul>
+                       <li><a href="https://www.facebook.com/ahmed.hussin.79656921">Facebook</a></li> 
+                       <li><a href="https://www.instagram.com/ahmed_hussssin/">Instagram</a></li> 
+                       <li><a href="https://github.com/Ahmedhussin1">GitHub</a></li> 
+                       <li><a href="https://twitter.com/ahmedhussin1253">twitter</a></li> 
+                    </ul>
                 </div>
 
-                <div>
-                    <h3 style="margin-left:50px;">contact Info</h3> 
-                    <form  style="margin-bottom:50px;margin-left: 50px;">
+                <div class="contact">
+                    <h3>Contact Info</h3> 
+                    <form>
                         <label for="fname">First name:</label>
                         <br>
-                        <input style="width:300px;" type="text" id="fname" name="fname">
+                        <input style="width:300px;" type="text" id="fname" name="fname" placeholder="Enter Your First Name">
                         <br>
                         <label   for="lname">Last name:</label>
                         <br>
-                        <input style="width:300px;" type="text" id="lname" name="lname">
+                        <input style="width:300px;" type="text" id="lname" name="lname" placeholder="Enter Your Last Name">
                         <br>
                         <label> Email: </label>
                         <br>
-                        <input style="width:300px;" type="email" id="email" name="email">
-                        <br>
+                        <input style="width:300px;" type="email" id="email" name="email" placeholder="Enter Your Email">
                     </form>
+                    <button>SUBMIT</button>
                 </div>
 
-                
-
-            </div>
         </footer>
     </body>
 </html>
